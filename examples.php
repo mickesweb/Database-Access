@@ -1,5 +1,9 @@
  <?php
+    // Including class file.
+    include_once(dirname(__FILE__).'/class.dataaccess.php');
+    // Create a new instans of the class.
     $data = new Dataaccess();
+    
     //Insert data to database
     $sql = "INSERT INTO test(name) VALUES (:name)";
     $sqlValue = array(array(":name"=>"Mikael"),array(":name"=>"Mickesweb"));
