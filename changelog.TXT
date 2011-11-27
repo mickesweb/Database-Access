@@ -1,0 +1,7 @@
+Version 1.0, 15/11-2011
+    First version of the class includes:
+    - function for insert data.
+    - function for delete data.
+    - function for a query.
+    - function for get the lastId, only work after a insert.
+    - function for close tha database connection.
